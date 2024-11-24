@@ -1,4 +1,4 @@
-package com.bookerapi.tests;
+package com.bookerapi.base;
 
 import org.testng.annotations.BeforeClass;
 import com.bookerapi.utils.TokenManager;

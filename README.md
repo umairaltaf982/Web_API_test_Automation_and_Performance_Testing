@@ -1,7 +1,10 @@
 ﻿# Project Documentations
-- [Anas Altaf - F223639 Documentation](/docs/README.html)
-- [Umair Altaf - F223737 Documentation](/docs/README.html)
-
+- [Anas Altaf - F223639 Documentation](/index.html)
+- [Umair Altaf - F223737 Documentation](/fyp-doc-umair.md)
+# FYP - Docs
+- [Anas Altaf - F223639 🤖SlinkyMate](/fyp-doc-anas.md)
+- [Umair Altaf - F223737 - 👩‍🎓QuickTick](/fyp-doc-umair.md)
+---
 # API Testing & Performance Engineering Project
 
 ## 📋 Overview

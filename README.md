@@ -1,6 +1,6 @@
 ﻿# Project Documentations
 - [Anas Altaf - F223639 Documentation](/docs/README.html)
-- [Umair Altaf - F223737 Documentation](/docs/README.html)
+- [Umair Altaf - F223737 Documentation](/README-anas.md)
 
 # API Testing & Performance Engineering Project
 

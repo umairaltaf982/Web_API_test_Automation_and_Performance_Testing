@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 performance-tests/results/*
+load-testing/results/*
+load-testing/jmeter.log
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml

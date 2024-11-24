@@ -1,4 +1,4 @@
-# QuickTick - AI-Based Attendance System
+# QuickTick - 👩‍🎓AI-Based Attendance System
 
 An AI system utilizing machine learning and image processing to identify students and teachers through facial recognition as they enter a room, automatically marking their attendance.
 

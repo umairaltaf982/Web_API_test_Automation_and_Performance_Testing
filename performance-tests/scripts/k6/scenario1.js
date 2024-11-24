@@ -1,4 +1,6 @@
 //to run: k6 run scenario1.js
+//to generate report: k6 run --out json=../../results/reports/scenario1.json scenario1.js
+
 
 import http from 'k6/http';
 import { check, sleep } from 'k6';

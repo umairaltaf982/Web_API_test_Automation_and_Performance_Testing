@@ -7,9 +7,9 @@ import { check, sleep } from 'k6';
 
 export const options = {
     stages: [
-        { duration: '1m', target: 200 },  // Ramp-up to 200 users
-        { duration: '3m', target: 500 }, // Stay at 1000 users
-        { duration: '1m', target: 0 },    // Ramp-down
+        { duration: '1m', target: 200 },
+        { duration: '3m', target: 500 },
+        { duration: '1m', target: 0 },
     ],
 };
 
@@ -26,5 +26,5 @@ export default function () {
         'token exists': (r) => r.json('token') !== undefined,
     });
 
-    sleep(0.5); // Simulate user think time
+    sleep(0.5);
 }

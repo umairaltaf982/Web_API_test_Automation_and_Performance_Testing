@@ -6,8 +6,8 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export const options = {
-    vus: 50,           // Number of virtual users
-    duration: '1m',    // Test duration
+    vus: 50,
+    duration: '1m',
 };
 
 export default function () {
@@ -23,5 +23,5 @@ export default function () {
         'token exists': (r) => r.json('token') !== undefined,
     });
 
-    sleep(1); // Simulate user think time
+    sleep(1);
 }

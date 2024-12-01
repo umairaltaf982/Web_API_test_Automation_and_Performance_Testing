@@ -7,17 +7,17 @@ import { check, sleep } from 'k6';
 
 export const options = {
 stages: [
-        { duration: '30s', target: 50 }, // Ramp-up to 50 users
-        { duration: '1m', target: 50 },  // Steady state
-        { duration: '30s', target: 0 },  // Ramp-down
+        { duration: '30s', target: 50 },
+        { duration: '1m', target: 50 },
+        { duration: '30s', target: 0 },
         ],
         };
 
 export default function () {
     const url = 'https://restful-booker.herokuapp.com/auth';
     const payload = JSON.stringify({
-            username: 'admin', // Replace with valid credentials
-            password: 'password123', // Replace with valid credentials
+            username: 'admin',
+            password: 'password123',
     });
 
     const params = {
@@ -28,11 +28,10 @@ export default function () {
 
     const res = http.post(url, payload, params);
 
-    // Validate response
     check(res, {
             'status is 200': (r) => r.status === 200,
             'token exists': (r) => r.json('token') !== undefined,
     });
 
-    sleep(1); // Simulate user think time
+    sleep(1);
 }

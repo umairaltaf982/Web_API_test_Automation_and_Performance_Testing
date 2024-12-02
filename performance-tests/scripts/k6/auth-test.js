@@ -1,5 +1,9 @@
 //to run: k6 run auth-test.js
-//to generate report: k6 run --out json=../../results/reports/auth-test.json auth-test.js
+//to generate | report: k6 run --out json=../../results/reports/auth-test.json auth-test.js
+/*
+k6 run --out json=performance-tests/results/reports/auth-test.json performance-tests/scripts/k6/auth-test.js
+
+*/
 
 
 import http from 'k6/http';
